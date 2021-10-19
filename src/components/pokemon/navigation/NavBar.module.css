@@ -1,0 +1,13 @@
+.nav-bar {
+    min-width: 300px;
+    width: 350px;
+}
+
+.link{
+    margin:0px 4px;
+}
+
+.active{
+    color:#1976d2;
+}
+

@@ -1,0 +1,32 @@
+.btn {
+    
+    border:'1px solid black';
+    margin:'0px auto';
+    height: 70px;
+    font-family:system-ui,sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1d3140;
+    border: none;
+    background-color: #75c3ff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    
+}
+
+.btn:hover{
+    background-color: #3193dd;
+    color:#f8fdff;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    cursor: unset;
+    
+}
