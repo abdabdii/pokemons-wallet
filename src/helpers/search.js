@@ -3,6 +3,7 @@ const parsed = queryString.parse(window.location.search);
 export const searchAndFilter = (searchArr ,types=parsed.typesFilter||[],searchValue=parsed.search||"" ) => {
     let result = searchArr
     if(searchValue){
+        searchValue = searchValue.toLowerCase()
     result =  result.filter((item)=>item.name.search(searchValue) >= 0)
     }
 
