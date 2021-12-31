@@ -9,6 +9,6 @@ Search and filter all pokemons
 - Fetching data from external API and manipluate it to get the data in a shape that can be searched and filtered
 - React router
 - Material UI
-- Handling the pagination and search & filter functionaly in the front
+- Handling the pagination , search and filter functionaly in the front-end
 - Utilizing the local storage to save the pokemons
 
